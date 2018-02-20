@@ -16,7 +16,7 @@
 4. Create a new branch for the project:
     - `$ git checkout -b your-branch-name`
 
-5. Open the git_gone assignment in sublime and write your code in the `exercises.js` file.
+5. Open the git_gone assignment in sublime and write your code in the `index.html` file.
 
 6. Don't forget to commit and push your code.
 
