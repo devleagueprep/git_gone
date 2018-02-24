@@ -30,6 +30,24 @@ Append this paragraph element into the div element with thd id of `brand`*/
 
 Append these li elements into the nav element.*/
 
+var nav1 = document.createElement('li');
+var nav2 = document.createElement('li');
+var nav3 = document.createElement('li');
+var nav4 = document.createElement('li');
+nav1.class = "guide";
+nav2.class = "guide";
+nav3.class = "guide";
+nav4.class = "guide";
+nav1.innerHTML = 'Home';
+nav2.innerHTML = 'About Us';
+nav3.innerHTML = 'Services';
+nav4.innerHTML = 'Contact Us';
+menu.appendChild(nav1);
+menu.appendChild(nav2);
+menu.appendChild(nav3);
+menu.appendChild(nav4);
+
+
 // Mission 4: 
 //Team Leader: Tyler
 
