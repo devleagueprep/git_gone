@@ -17,6 +17,12 @@
 
 Append this paragraph element into the div element with thd id of `brand`*/
 
+var two = document.createElement('p');
+var nodeTwo = document.createTextNode('Making Money Moves!');
+two.appendChild(nodeTwo);
+
+var elemTwo = document.getElementById('brand');
+elemTwo.appendChild(two);
 
 // Mission 3: 
 //Team Leader: Reese
