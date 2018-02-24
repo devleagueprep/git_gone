@@ -46,7 +46,7 @@ for (var i = 0; i < chicken.length; i += 1){
 	var li = document.createElement("li");
 	li.className = "rank";
 	li.innerHTML = chicken[i];
-	document.body.appendChild(li);
+	today.appendChild(li);
 }
 
 
