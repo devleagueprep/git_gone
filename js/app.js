@@ -42,6 +42,13 @@ Append these li elements into the nav element.*/
 
 var chicken = ['orange chicken', 'lemon chicken', 'fried chicken', 'garlic chicken', 'tandoori chicken', 'chicken nuggets'];
 
+for (var i = 0; i < chicken.length; i += 1){
+	var li = document.createElement("li");
+	li.className = "rank";
+	li.innerHTML = chicken[i];
+	document.body.appendChild(li);
+}
+
 
 // Mission 6: 
 // Team Leader: Ben
