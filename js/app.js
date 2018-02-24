@@ -55,6 +55,8 @@ for (var i = 0; i < chicken.length; i += 1){
 
 // Remove the li element that has the `snake` content
 
+var listElement = document.getElementsByClassName("pet");
+listElement[2].remove();
 
 // Mission 7: 
 //Team Leader: May
