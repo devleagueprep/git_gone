@@ -54,6 +54,15 @@ var chicken = ['orange chicken', 'lemon chicken', 'fried chicken', 'garlic chick
 
 /*Create a function that will generate a random number between 0 and 20. Place this number in the div element with the `random` id.*/
 
+function randomNumber() {
+	var randNum = Math.floor(Math.random() * 10);
+
+	return randNum;
+}
+
+var randomElem = document.getElementById("random");
+randomElem.innerHTML = randomNumber();
+
 
 // Mission 8: 
 //Team Leader: Cyrus
