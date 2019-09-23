@@ -67,5 +67,8 @@ for (var i = 0; i < chicken.length; i += 1){
 /*Create a function that will get the right day of the week displayed in the div element with the id of `today`*/
 
 var dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday','Thursday', 'Friday', 'Saturday'];
-
+function cyrus() {
+	// var day = (new Date(day)).getDay();
+	document.getElementById("today").innerHTML = dayOfWeek[(new Date(day)).getDay()];
+}
 
