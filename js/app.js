@@ -34,6 +34,7 @@ Append these li elements into the nav element.*/
 //Team Leader: Tyler
 
 /*Target the span element with the id of `good` and change the font color to cornflowerblue via the DOM.*/
+document.getElementById("good").style.color="cornflowerblue";
 
 // Mission 5: 
 //Team Leader: Jace
